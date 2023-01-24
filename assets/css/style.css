@@ -112,12 +112,61 @@ img {
 
 .wrapper {
   max-width: 1366px;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
 }
 
 /* Global styling End here */
 
 /* ==========================================================================
-1.HEADER STYLING START HERE
+1.TAB FILTER STYLING START HERE
+========================================================================== */
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #00a1e1;
+}
+.header-list {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header-list.active {
+  background-color: aliceblue;
+}
+
+.header-list:hover {
+  background-color: aliceblue;
+}
+
+.header-list a {
+  color: #000;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #928591;
+  position: relative;
+}
+
+.content-list {
+  padding: 20px 30px; 
+  color: #000;
+  position: absolute;
+}
+
+.content-list.active {
+  left: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: #928591;
+}
+
+
+/* ==========================================================================
+1.TAB FILTER STYLING END HERE
 ========================================================================== */
