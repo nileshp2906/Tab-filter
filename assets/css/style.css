@@ -130,6 +130,7 @@ img {
 .header-list {
   padding: 10px;
   border-radius: 5px;
+  transition: all .3s ease-in-out;
 }
 
 .header-list.active {
