@@ -132,13 +132,8 @@ img {
   border-radius: 5px;
 }
 
-.header-list.active {
-  background-color: aliceblue;
-}
-
-.header-list:hover {
-  background-color: aliceblue;
-}
+.header-list.active { background-color: aliceblue; }
+.header-list:hover { background-color: aliceblue; }
 
 .header-list a {
   color: #000;
@@ -163,10 +158,35 @@ img {
   left: 0;
   width: 100%;
   z-index: 5;
-  background-color: #928591;
+  background-color: #fff;
 }
 
+.dispaly {
+}
 
+.chats {
+  display: flex;
+  padding: 15px 20px;
+  border-bottom: 1px solid;
+}
+
+.chats img {
+  width: 100%;
+  height: 100%;
+  max-width: 70px;
+  max-height: 70px;
+  margin-right: 40px;
+  border-radius: 50%;
+}
+
+.chat-content span {
+  display: block;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}
 /* ==========================================================================
 1.TAB FILTER STYLING END HERE
 ========================================================================== */
